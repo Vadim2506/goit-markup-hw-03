@@ -313,6 +313,7 @@ a {
 }
 .adress {
   margin-top: 20px;
+  margin-bottom: 9px;
   color: white;
 }
 .contact {
@@ -327,7 +328,7 @@ a {
   padding: 0;
 }
 .foot-mail {
-  margin-top: 9px;
+  margin-top: 0px;
 }
 .foot-tel {
   margin-top: 9px;
