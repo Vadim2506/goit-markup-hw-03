@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>WebStudio</title>
     <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+    />
+    <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
@@ -41,11 +45,12 @@
       <!-- headder -->
       <section class="hero">
         <div class="conteiner">
-          <h1 class="hero-text">
-            Эффективные решения<br />
-            для вашего бизнеса
-          </h1>
-
+          <div class="hero-content">
+            <h1 class="hero-text">
+              Эффективные решения<br />
+              для вашего бизнеса
+            </h1>
+          </div>
           <button type="button" class="button primary">Заказать услугу</button>
         </div>
       </section>
@@ -55,28 +60,28 @@
           <ul class="card-set-feat">
             <li class="item item-feat">
               <h2 class="feature-title">Внимание к деталям</h2>
-              <p>
+              <p class="feature-text">
                 Идейные соображения, а также начало повседневной работы по
                 формированию позиции.
               </p>
             </li>
             <li class="item item-feat">
               <h2 class="feature-title">Пунктуальность</h2>
-              <p>
+              <p class="feature-text">
                 Задача организации, в особенности же рамки и место обучения
                 кадров влечет за собой.
               </p>
             </li>
             <li class="item item-feat">
               <h2 class="feature-title">Планирование</h2>
-              <p>
+              <p class="feature-text">
                 Равным образом консультация с широким активом в значительной
                 степени обуславливает.
               </p>
             </li>
             <li class="item item-feat">
               <h2 class="feature-title">Современные технологии</h2>
-              <p>
+              <p class="feature-text">
                 Значимость этих проблем настолько очевидна, что реализация
                 плановых заданий.
               </p>
@@ -106,40 +111,48 @@
         <div class="conteiner">
           <h2 class="working">Наша команда</h2>
           <ul class="card-set">
-            <li class="item item-feat">
+            <li class="item item-worker">
               <img
                 src="./images/team-card-1.jpg"
                 alt="Product Designer"
                 width="270"
               />
-              <h3 class="team-name">Игорь Демьяненко</h3>
-              <p class="team-partner">Product Designer</p>
+              <div class="worker">
+                <h3 class="team-name">Игорь Демьяненко</h3>
+                <p class="team-partner">Product Designer</p>
+              </div>
             </li>
 
-            <li class="item item-feat">
+            <li class="item item-worker">
               <img
                 src="./images/team-card-2.jpg"
                 alt="Frontend Developer"
                 width="270"
               />
-              <h3 class="team-name">Ольга Репина</h3>
-              <p class="team-partner">Frontend Developer</p>
+              <div class="worker">
+                <h3 class="team-name">Ольга Репина</h3>
+                <p class="team-partner">Frontend Developer</p>
+              </div>
             </li>
 
-            <li class="item item-feat">
+            <li class="item item-worker">
               <img src="./images/team-card-3.jpg" alt="Marketing" width="270" />
-              <h3 class="team-name">Николай Тарасов</h3>
-              <p class="team-partner">Marketing</p>
+              <div class="worker">
+                <h3 class="team-name">Николай Тарасов</h3>
+                <p class="team-partner">Marketing</p>
+              </div>
             </li>
 
-            <li class="item item-feat">
+            <li class="item item-worker">
               <img
                 src="./images/team-card-4.jpg"
                 alt="UI Designer"
                 width="270"
               />
-              <h3 class="team-name">Михаил Ермаков</h3>
-              <p class="team-partner">UI Designer</p>
+              <div class="worker">
+                <h3 class="team-name">Михаил Ермаков</h3>
+                <p class="team-partner">UI Designer</p>
+              </div>
             </li>
           </ul>
         </div>
@@ -148,7 +161,7 @@
     <!-- Подвал / footer -->
     <footer class="footer">
       <div class="conteiner">
-        <address class="foot-adress">
+        <address class="footer-adress">
           <a href="./index.html" class="logo-foot"
             ><span class="web">Web</span
             ><span class="logo-footer">Studio</span></a
