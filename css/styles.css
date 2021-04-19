@@ -22,7 +22,9 @@ ul {
   list-style: none;
 }
 img {
+  display: block;
   max-width: 100%;
+  height: auto;
 }
 body {
   background-color: #fff;
@@ -34,6 +36,10 @@ body {
 }
 a {
   text-decoration: none;
+}
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .conteiner {
   margin-left: auto;
@@ -149,11 +155,10 @@ a {
 /* hero */
 
 .hero {
+  padding-top: 200px;
+  padding-bottom: 200px;
   background-color: #2f303a;
   text-align: center;
-}
-.hero-content {
-  padding-top: 200px;
 }
 .hero-text {
   text-transform: uppercase;
@@ -170,7 +175,6 @@ a {
 /* Buttons */
 
 .button.primary {
-  margin-bottom: 200px;
   margin-top: 30px;
 
   border-radius: 4px;
@@ -210,10 +214,10 @@ a {
   justify-content: center;
 }
 /* Featers */
-.features {
+/* .features {
   padding-top: 94px;
-  padding-bottom: 94px;
-}
+  padding-bottom: 94px; 
+} */
 .feature-title {
   margin-bottom: 10px;
   text-transform: uppercase;
@@ -274,8 +278,8 @@ a {
   margin-bottom: 0px;
 }
 .work {
+  padding-top: 0px;
   text-align: center;
-  margin-bottom: 90px;
 }
 .working {
   color: var(--title-text-color);
@@ -284,22 +288,21 @@ a {
   line-height: 1.17;
 }
 .text-inner {
-  padding: 20px 24px 54px 24px;
-  border-right: 1px solid #eeeeee;
-  border-left: 1px solid #eeeeee;
-  border-bottom: 1px solid #eeeeee;
+  padding: 20px 24px;
+  border: 1px solid #eeeeee;
 }
 /* portfolio */
 
 .porfolio-block {
   margin-top: 94px;
 }
-.main-nav-fil {
+.filter-buttons {
   /* display: flex;
   align-items: center;
   justify-content: center; */
+
   margin-top: 0px;
-  padding: 94px 0 50px 0;
+  padding-bottom: 50px;
 }
 .section-filter {
   padding-bottom: 94px;
@@ -337,16 +340,13 @@ a {
 /* Наша команда / team  */
 .team {
   text-align: center;
-  padding-top: 94px;
-  padding-bottom: 94px;
   margin: 0px;
   background-color: #f5f4fa;
 }
 .item-worker {
 }
 .worker {
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding: 30px;
 }
 .team-name {
   margin: 0 0 10px 0;
@@ -365,6 +365,7 @@ a {
 /* footer */
 
 .footer {
+  padding: 60px 0px;
   background-color: #2f303a;
 }
 .logo-foot {
@@ -376,7 +377,6 @@ a {
 }
 
 .footer-adress {
-  padding: 60px 0px;
   font-style: normal;
 }
 .adress {
